@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- 
+     
+      css盒子模型：规定元素与元素之间的关系或者元素与内容之间的关系
+       盒子模型的组成：content（内容）+padding（内边距）+border（边框）+margin（外边距）
+       盒子模型相关的属性：margin、border、padding
+
+       content=文字内容|子元素|元素的宽高
+注意：padding一般给父元素添加，padding会把元素撑开
+      1、调节内容在元素中的位置
+
+      2.调节子元素在父元素的位置关系
+
+
+       padding属性，内填充，内边距：盒子内容到盒子边框的距离
+       padding：值；---表示给元素上下左右都添加padding值
+       padding：值1 值2--值1表示给上下添加padding，值2表示给左右添加
+       padding：值1 值2 值3--值1表示给上添加padding，值2表示给左右添加 值3给下添加
+        padding：值1 值2 值3 值4--分别给上右下左添加加
+       padding-left|right|top|bottom:单独给某个方向添加padding值
+
+1. 边框样式（实现，虚线..）
+border-style:solid(实线)|dashed（虚线）|dotted（点线） | double（双线） 
+    边框样式必填，否则不出效果
+2.边框宽度
+border-width数值+px；默认为3px
+3.边框颜色
+border-color:颜色 默认为黑色
+4.简写：border：颜色 样式 宽度；
+5.单独给某一边添加边框
+border-left|right|top|bottom
+
+
+元素在页面中所占宽高：
+宽度=左右的border+上下的padding+content（width）
+高度=上下的border+上下的padding+content（width）
+
+如果给元素设置padding和border时候，一定在元素的宽高上面减去添加的padding和border值
+
+padding：调节子元素在父元素中的位置关系
+margin ：调节元素与元素（兄弟）之间的距离
+margin：值；---表示给元素上下左右都添加margin值
+margin：值1 值2； 值1 表示给上下添加margin值 值2 给左右添加
+margin：值1 值2 值3--值1表示给上添加margin，值2表示给左右添加 值3给下添加
+margin：值1 值2 值3 值4--分别给上右下左添加加
+
+（1）注意点：块级元素默认占据一整行，如果元素有设置宽度，那么剩下的空白区域
+会被当成元素的margin
+使用margin：auto的时候，margin值平分到元素的两边，实现块级元素居中效果
+（2）margin值可以为负数
+    水平方向的负数 往左移动，正数往右移动
+    垂直方向的负数 往上移动，正数往下移动
+
+    解决：1、给父元素添加border
+          2、给父元素或者子元素设置float
+          3、给父元素设置overflow：hidden
+         
+          问题当两个元素垂直排列的时候
+          给上面元素设置margin-bottom，给下面的盒子设置margin-top的时候，两个盒子
+          的margin不会相加，而是取两个值较大的给元素添加距离
+          解决：
+          给两个盒子中其中一个盒子设置display：inline-block
+
+
+
+          display：block；解决图片产生大约3px的距离
+
+          同一个标签里面有多行文字，每一行=文字之间的距离，只能使line-height
+
+    -->
+</body>
+</html>

@@ -1,0 +1,242 @@
+/*通配符用来清除默认样式 */
+* {
+    margin: 0;/*外边距*/
+    padding: 0;/*内边距*/
+}
+/* 最外层使用id选择器写样式
+#id名
+ */
+
+ #wolong{
+     width: 1000px;
+     height: 1500px;
+     background: white;
+     margin: auto;/*使最外层的盒子在页面中显示居中*/
+ }
+ #wolong .header{
+     width: 1000px;
+     height: 100px;
+     background: url(../images/header.png);
+     background-repeat: no-repeat;
+     background-position: center center;
+
+
+ }
+ #wolong .nav{
+    width: 1000px;
+    height: 60px;
+    background: #2f2f2f;  
+    }
+  
+ #wolong .banner{
+    width: 1000px;
+    height: 470px;  
+    background: url(../images/banner.png);
+ }
+ /* #wolong .main1_left{
+    width: 500px;
+    height:240px;  
+    float:left; 
+   /* display: inline-block;  
+    background:gray;
+    
+ } */
+ /* #wolong .main1_center{
+    width: 240px;
+    height:240px;  
+    background:green;
+    float:left; 
+    /* display: inline-block; 
+ } */
+ /* #wolong .main1_right{
+    width: 260px;
+    height:240px;  
+    background: yellow;
+   float: right;
+ 
+   
+ } */
+
+ #wolong .main1{
+     width: 1000px;
+     height: 240px;
+     background: green;
+
+
+ }
+ #wolong h2{
+    font-size: 16px;
+    
+    color: #1b1b1b;
+    padding-top: 20px;
+    padding-bottom: 16px;
+    
+ }
+ #wolong .main1 .left{
+    width: 500px;
+    height:240px;  
+    float:left; 
+    background:#ffffff;
+    padding-right: px;
+ }
+ #wolong .main1 .left li{
+   font-size: 15px;
+ }
+ #wolong .main1 .left span{
+   font-size: 15px;
+   float:right;
+   padding-right: 26px;
+ }
+ #wolong .main1 .center{
+    width: 240px;
+    height:240px;  
+    float:left; 
+    background:#f1f1f1;
+ }
+ #wolong .main1 .center h2,p{
+    padding-left: 25px;
+ }
+
+ #wolong .main1 .right{
+    width: 260px;
+    height:240px;  
+    float:left; 
+    background: #fbfbfb;
+ }
+ #wolong .main1 .right h2,span{
+   padding-left: 26px;
+   text-align: center;
+
+ }
+
+
+ #wolong .main2{
+    width: 1000px;
+    height: 350px;
+   background:  #fff;
+   
+    
+ }
+ #wolong .main2 .list div{
+    width:210px;
+    height:250px;  
+   /* margin-top: 20px; */
+    float:left;  
+    margin-left: 20px;
+    margin-right: 20px;
+
+ }
+ 
+ 
+
+.main2 .list img{
+  width: 208px;
+  height: 137px; 
+  margin-bottom: 24px;
+  display: block;
+}
+
+.main2 .list  .pp{
+   font-size: 10px;
+ line-height: 22px;
+ text-align: left;
+ color:#606060;
+margin-top: 17px;
+padding: 0px 12px;
+
+} 
+
+
+ #wolong .main3{
+    width: 1000px;
+    height:300px; 
+   margin-top: 30px;
+    background:#e1e1e1;
+    margin-bottom: 20px; 
+    
+ }
+ .main3  .list_l{
+    width: 485px;
+    height: 300px;
+    float: left;
+    margin-right: 30px;
+ }
+ .main3 .list_l ul {
+   width: 130px;
+   height: 200px;
+   float: left; 
+   padding-right: 20px;
+   border-top: 1px solid gray;
+ }
+ .main3   li{
+  list-style-image: url(../images/li.png);
+  list-style-type: none;
+  list-style-position: inside;
+  font-size: 11px;
+  padding-top: 11px;
+ }  
+ .main3  .list_c {
+    width: 150px;
+    height: 300px;
+  
+    float: left;
+    margin-right: 30px;
+ }
+ .main3 .list_c ul {
+   width: 130px;
+   height: 200px;
+   float: left; 
+   border-top: 1px solid gray;
+
+ }
+ .main3  .list_r {
+   width: 150px;
+   height: 300px;
+  
+   float: left;
+  
+}
+ .main3 .list_r div {
+ width: 270px;
+   border-top: 1px solid gray;
+ }
+
+
+ #wolong .footer{
+     width: 1000px;
+     height: 35px;
+   margin-top: 30px;
+
+     background: #8d4b9e;
+ }
+ /* #wolong .footer{
+    width: 1000px;
+    height: 40px; 
+    background: red; 
+ } */
+#wolong .nav ul li{
+    list-style-type: none;
+    float: left;
+    text-align: center;
+  padding: 20px;
+  
+}
+#wolong .nav ul li:hover{
+background:orange;
+}
+#wolong .nav a{
+color:white;
+font-size: 20px;
+text-align: center;
+text-decoration:none;
+}
+#wolong .main1 p{
+   font-size: 20px;
+   line-height:40px;
+}
+#wolong .main1  ul{
+   font-size: 20px;
+   text-align: left;
+   padding-left: 30px;
+}
+

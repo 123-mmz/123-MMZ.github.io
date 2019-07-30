@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#qianfeng{
+    width: 100%;
+    height: 100%;
+}
+#qianfeng .content{
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+}
+#qianfeng .header{
+    width: 1000px;
+    height: 63px;
+    background: black;
+}
+#qianfeng .header h1{
+    text-indent: -999px;
+  background-image: url(../images/logo.png);
+  background-repeat: no-repeat;
+  float: left;
+}
+#qianfeng .header ul {
+    float: right;
+
+}
+#qianfeng .header ul li{
+   list-style-type: none;
+    float: left;
+    line-height: 62px;
+   
+}
+#qianfeng .header ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 16px;
+}
+#qianfeng .header ul li a:hover{
+    background:#f15a23;
+}
+#qianfeng .banner{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/banner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#qianfeng .main1{
+    width: 1000px;
+    height: 347px;
+background: #f5f5f5;
+}
+#qianfeng .main2{
+    width: 1000px;
+    height: 310px;
+    background: #ffffff;
+}
+#qianfeng .main3{
+    width: 1000px;
+    height: 217px;
+    background: #222222; 
+}
+#qianfeng .main3{
+    width: 1000px;
+    height: 44px;
+    background: #101010; 
+}

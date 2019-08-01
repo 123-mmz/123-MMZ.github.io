@@ -1,0 +1,326 @@
+
+html,body{
+    height: 100%;
+}
+
+#box{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* .top .tite{
+ height: 80px;
+
+} */
+
+
+.top{
+    background: #7ab5e9;
+    height: 88px;
+
+}
+.clearfix::after{
+    content:"";
+    clear:"";
+    height:0px;
+    overflow: hidden;
+    visibility:hidden;
+    display: block;
+
+}
+
+.top .title  h2{
+    font-size: 23px;
+    color: #fff;
+   top:30px;
+    left: 22px;
+    position: relative; 
+   
+}
+.top .title .tubiao{
+    float: right;
+    margin-bottom: 10px;
+
+    /* height: 80px; */
+}
+.top .title .tubiao ul li{
+    float: left;
+    width: 60px; 
+   text-align: center;
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin-right: 10px;;
+
+  
+}
+.top .title .tubiao ul li  .list1{
+    margin: auto;
+  }
+.top .title .tubiao ul li p{
+    font-size: 12px;
+    color: #fff;
+}
+.top .title .tubiao ul li .list1 div{
+    width: 25px;
+    height: 25px;
+    margin: auto;
+}
+.top .title .tubiao ul li .list1  .icon1{ 
+    background: url(../images/n1.png) no-repeat center center;
+}
+.top .title .tubiao ul li .list1  .icon2{ 
+    background: url(../images/n2.png) no-repeat center center;
+}
+.top .title .tubiao ul li .list1  .icon3{ 
+    background: url(../images/n3.png) no-repeat center center;
+}
+.top .title .tubiao ul li .list1  .icon4{ 
+    background: url(../images/n4.png) no-repeat center center;
+}
+.top .title .tubiao ul li .list1  .icon5{ 
+    background: url(../images/n5.png) no-repeat center center;
+}
+.top .title .tubiao ul li .list1  .icon6{ 
+    background: url(../images/n6.png) no-repeat center center;
+}
+.top .title .tubiao ul li .list1  .icon7{ 
+    background: url(../images/n7.png) no-repeat center center;
+}
+.top  .title  ul li:hover {
+    background: url(../images/libj.png) no-repeat ;
+    
+}
+
+.bottom{
+  
+    height: calc(100% - 88px);
+    border: 1px solid green;
+    position: fixed;
+   
+}
+.bottom .left{
+    width: 200px;
+   height: 100%;
+   background:#417ec8;
+   float: left;
+}
+.bottom .left h2{
+   width:200px;
+    height: 30px;
+    background: url(../images/e_01.jpg) no-repeat center center;
+    
+}
+
+
+.bottom .left .l1_ul .l1_l1 {
+    width: 100%;
+    /* height: 32px; */
+    line-height: 30px;
+    text-align: center;
+
+}
+.bottom .left .li_ul .l1_l1 a img{
+    /* padding-right:10px; */
+    line-height: 30px;
+    padding:0 10px 0 14px;
+}
+.bottom .left .l1_ul .l1_l1 a{
+    font-size: 12px;
+     color:#fff; 
+     display: block;
+
+}
+.bottom .left .l1_ul .l1_l1:hover .l_list2{
+    display:block;
+}
+
+.bottom .left .l1_ul .l1_l1 .l_list2  {
+    display: none;
+}
+.bottom .left .l1_ul .l1_l1 .l_list2 li a{
+ 
+    font-size: 12px;
+    line-height: 33px;
+    /* color: white; */
+    
+}
+
+.bottom .left .l1_ul .l1_l1:hover a {
+    background:url(../images/left_hover.jpg);
+    color: black;
+    /* display: block; */
+}
+.bottom .left ul li:hover ol li a{
+    background:url(../images/left_02_bj.jpg);
+    color: white;
+}
+
+
+.bottom  .right{
+    /* height: calc(100% - 80px); */
+    height: 100%;
+
+    width: calc(100% - 200px);
+    float: right;
+    overflow: hidden;
+    background: white;
+    position: relative;
+    /* background: red; */
+}
+.content-right ul{
+    width: 100%;
+}
+
+.bottom  .right .r_title li{
+     float: left;
+     font-size: 12px;
+     height: 25px;
+     margin: 0 5px;
+} 
+
+.bottom .right  .r_title ul li a{
+   
+    font-size: 12px;
+    color:#636363;
+}
+ 
+
+.bottom .right  .list_form fieldset  input[type=text] {
+    width: 122px;
+    height: 25px;
+    border: 1px solid #ccc; 
+}
+.bottom .right  .list_form fieldset select{
+    width: 140px;
+    height: 25px;
+    font-size: 12px;
+    color:#c4aeb9;
+}
+.bottom .right   .list_form fieldset  button{
+    width: 57px;
+    height: 24px;
+    margin-left: 25px;
+    font-size: 12px;
+    color: black;
+}
+
+
+.bottom  .right  .list_form{
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid #e3e3e3;
+}
+.bottom  .right  .list_form p{
+    margin-left: 20px;
+    height: 50px;
+    font-size: 14px;
+    line-height: 50px;
+    font-weight: 400;
+    display: inline-block;
+
+}
+
+.bottom .right fieldset p img{
+    padding:0 12px;
+    vertical-align:middle;
+
+   
+}
+.bottom  .right fieldset p span{
+    vertical-align:middle;
+}
+.bottom  .right  table{
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border: 1px solid #d6d6d6;
+
+
+}
+.bottom fieldset table thead{
+    background:#f7f7f7;
+}
+.bottom fieldset  table  thead tr  td {
+    height: 30px;
+    width: 165px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.bottom .right fieldset table thead tr td input{
+    width: 13px;
+    height: 13px;
+
+}
+.bottom fieldset table  tbody tr td {
+    height: 30px;
+    width: 165px;
+    font-size: 12px;
+    text-align: center;
+    font-size: 12px;
+    color:black;
+}
+.bottom .right fieldset table tbody tr td input{
+    width: 13px;
+    height: 13px;
+}
+tr:nth-child(2n+1){
+    background: #f7f7f7;
+ }
+
+
+
+ .bottom .right  .text{
+  position: absolute; 
+      left: 22px;
+      bottom:40px;
+      font-size: 12px;
+      color:black;
+      float: left;
+
+     }
+ .bottom  .foot{
+    position: absolute;
+    left: 22px;
+    bottom:40px;
+    font-size: 12px;
+    color:black;
+}
+.bottom  .right .btn{
+    /* position: relative; */
+     /* bottom:35px;
+     right: 40px; */
+     float: right;
+ 
+}
+
+.bottom .right  .btn li{
+    float: left;
+    margin-left: 5px;
+}
+.bottom  .right .btn li a {
+   text-align: center;
+   font-size: 12px;
+   color: black;
+  line-height: 20px;
+  padding: 5px 10px;
+  
+}
+.bottom .right .btn li:nth-child(2) a{
+    border: 1px solid #a3a3a3;
+    background: #417eb7;
+    color: white;
+    font-weight: bold;
+}
+.bottom .right .btn li:nth-child(3) a{
+     border: 1px solid #a3a3a3;
+}
+.bottom .right .btn li:nth-child(4) a{
+     border: 1px solid #a3a3a3;
+} 

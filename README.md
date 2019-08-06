@@ -2,7 +2,7 @@
 
 
 # 开源博客
-<a href="https://123-mmz.github.io/开源博客/code/html">开原博客</a>
+<a href="https://123-mmz.github.io/开源博客/code/html">开源博客</a>
 
 
 # 管理系统练习

@@ -1,0 +1,5 @@
+@media all and (min-width: 60%) and (max-width: 90%) {
+  #kaiyuan .ky-main .content div {
+    flex-direction: column;
+  }
+}

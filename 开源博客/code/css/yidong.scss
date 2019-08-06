@@ -1,0 +1,40 @@
+@media all  and (min-width:0px) and (max-width:790px){
+    #kaiyuan{
+        .ky-foot{
+            .container{
+                flex-direction: column;
+                .f_left{
+                    width: 90%;
+                   
+                }
+                .f_center{   
+                    width: 90%;
+
+
+                }
+                .f_right{
+                    width: 90%;
+
+                }
+            }
+        }
+    }
+}
+@media all  and (min-width:0px) and (max-width:900px){
+#kaiyuan{
+    .ky-main{
+        .content{
+            flex-direction: column;
+            .m-left{
+                width: 90%;
+
+            }
+            .m-right{
+                width: 90%;
+            
+            }
+        }
+
+    }
+    
+}}
